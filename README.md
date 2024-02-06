@@ -14,11 +14,11 @@
 
 
 ### Competitive Analysis
-- **1.	https://www.ironicreports.com/#:~:text=Ironic%20offers%20a%20personalized%20event,addressing%20challenging%20and%20favorable%20conditions** :This website, ironicreports.com, provides expert weather coverage and personalized plans to event professionals committed to growth, education, and embracing new technology. The website has a modern design and looks very clean. The layout is simple. The colors used are orange, white and blue. Different fonts are used and there is headings and a body. There is images, buttons, and graphics. The website offers testimonials, contact information and features that you can easily interact with. It is easy to navigate as well. ? and # are used in the URL. Upon inspection, I saw several HTML tags I recognized. This included <div>, <section>, <head> and <body>.  I also noticed it uses block elements by display:block. I actually did not see any bootstrap uses. I did see <script> used a lot as well as <style> that were custom CSS styles or JavaScript functions. 
+- **1.	https://www.ironicreports.com/#:~:text=Ironic%20offers%20a%20personalized%20event,addressing%20challenging%20and%20favorable%20conditions** :This website, ironicreports.com, provides expert weather coverage and personalized plans to event professionals committed to growth, education, and embracing new technology. The website has a modern design and looks very clean. The layout is simple. The colors used are orange, white and blue. Different fonts are used and there is headings and a body. There is images, buttons, and graphics. The website offers testimonials, contact information and features that you can easily interact with. It is easy to navigate as well. ? and # are used in the URL. Upon inspection, I saw several HTML tags I recognized. This included div>, section>, head> and body>.  I also noticed it uses block elements by display:block. I actually did not see any bootstrap uses. I did see <script> used a lot as well as <style> that were custom CSS styles or JavaScript functions. 
 
-- **2. https://www.weatherplanner.com/weather/plannability.php** : This website, weatherplanner.com, provides accurate weather forecast for up to a year in advance to help make planning things such as hiking, backpack trips, weddings and more easier to plan! The website is a little bit messy and does not use many colors except white, orange, and grey. The layout is simple with just headings and then paragraphs. There is no images on the main page, but there is on the weather planner team page. Some of the buttons do not work. They do provide contact information and a link to their twitter at the bottom of the page.  Upon inspection, I saw several HTML tags I recognized such as <header> , <div>, <body>. I noticed this site used block elements as well with display: block. <style> and <script> were used in the head a lot indicating CSS styles and JavaScript functions. The URL does not include # OR ?. 
+- **2. https://www.weatherplanner.com/weather/plannability.php** : This website, weatherplanner.com, provides accurate weather forecast for up to a year in advance to help make planning things such as hiking, backpack trips, weddings and more easier to plan! The website is a little bit messy and does not use many colors except white, orange, and grey. The layout is simple with just headings and then paragraphs. There is no images on the main page, but there is on the weather planner team page. Some of the buttons do not work. They do provide contact information and a link to their twitter at the bottom of the page.  Upon inspection, I saw several HTML tags I recognized such as header , div, body. I noticed this site used block elements as well with display: block. style> and script> were used in the head a lot indicating CSS styles and JavaScript functions. The URL does not include # OR ?. 
 
-- **3. 	https://www.windfinder.com/#3/39.5000/-98.3500** : This website, windfinder.com, provides live weather updates for outside activities such as kitesurfing, windsurfing, sailing, and fishing. The website has a clean look. The map takes up most of the page with interactive buttons on the side to get a look at different maps for different days and times. There is another page where you can put what country and region you want to look at and specify which activity or sport. It is interactive and easy to navigate and is presented neatly and with good colors. Upon inspection, I noted <div>, <header> , <body>, <button>, <nav> , border-radius, background-color and lots of other familiar code. I saw <style> and <script> were both used but did not identify any bootstrap. They used CSS and JavaScript. 
+- **3. 	https://www.windfinder.com/#3/39.5000/-98.3500** : This website, windfinder.com, provides live weather updates for outside activities such as kitesurfing, windsurfing, sailing, and fishing. The website has a clean look. The map takes up most of the page with interactive buttons on the side to get a look at different maps for different days and times. There is another page where you can put what country and region you want to look at and specify which activity or sport. It is interactive and easy to navigate and is presented neatly and with good colors. Upon inspection, I noted div, header , body, button, nav , border-radius, background-color and lots of other familiar code. I saw style and script> were both used but did not identify any bootstrap. They used CSS and JavaScript. 
 
 ### GitHub Repository Research
 - **1. https://github.com/comyar/Sol** : This repository is for an app called Sol for iOS, this app displays weather information so that you can easily plan your day. The README clearly describes how to use Sol as well as where the app gets its weather information. There is screenshots to show what the application looks like as well, it is very appealing to the eye. The type of iOS you need and Xcode you need is clearly defined as well. It looks like it was being worked on for years as well. 
@@ -32,17 +32,18 @@
 ### Citations
 "I used ChatGpt as well as w3schools.com/css and bootswatch."
 "For ChatGpt I asked it to help me make a functional button for my application that says “Add Eco-friendly activity” 
-And I used “ <button onclick=”addEcoActivity()”>Add Eco-Friendly Activity</button>
-<p id=”message”></p> and 
+And I used “ button onclick=”addEcoActivity()”>Add Eco-Friendly Activity /button>
+p id=”message”>/p> and 
 Function addEcoActivity() {
 const message= document.getElementById(‘message’);
 message.textContent = ‘Eco-friendly activity added to MyEcoPlanner!’;"  
-I also asked ChatGpt hot to properly use  <details> to have a drop down with more information. I used the following:
-<details>
-    <summary>More Information</summary>
-    <p>This is the dropdown information.</p>
-    <p>It can contain any HTML content.</p>
-</details>  
+
+I also asked ChatGpt hot to properly use  details> to have a drop down with more information. I used the following:
+details>
+    summary>More Information</summary
+    p>This is the dropdown information.</p
+    p>It can contain any HTML content.</p
+/details  
 
 ## Reflection on Resources
 I think if you use these resources correctly by just asking it for assistance and then applying your knowledge and making it relevant to your project, it can be very helpful and really enhance your website. I prefer ChatGpt because it is easy and fast, though sometimes you must watch as the information presented can include errors. As long as you do not rely on outside sources and have some insight on what you are doing, you should be good to go and you can just use them to further your website and knowledge! 
