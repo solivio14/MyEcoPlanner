@@ -1,0 +1,109 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+
+    <head>
+        <header>
+            <strong> <h1 style=" text-align:center; color:green;">Welcome to MyEcoPlanner!</h1> </strong>
+            <h2 style="text-align:center; font-size:18px; color:white; "> See activites to do near you based on your personal preferences and the weather.</h2>
+            <em> <h2 style="text-align:center"> Make planning stress free!</h2> </em>
+        </header>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                Home
+                                <span class="visually-hidden">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Separated link</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-sm-2" type="search" placeholder="Search">
+                        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <nav>
+
+            <a href="/ActivitiesPage"> Go to Activites</a>
+        </nav>
+        <section>
+            <img src="/images/ecoplanner.jpg" />
+        </section>
+        <section>
+            <h2> About MyEcoPlanner:</h2>
+            <p> My EcoPlanner is designed to make all of your days special, no matter the weather! MyEcoPlanner take into consideration the things you like and then gives you suggestions of events,service opportunities and ideas of how to spend your day! </p>
+            <p> Plan things up to a week in advance and if the weather is changing, no worries we provide live updates on all things weather!</p>
+        </section>
+        <section>
+            <h2> Additional Information</h2>
+            <details>
+                <summary> More information about MyEcoPlanner found here!</summary>
+                <p>
+                    My EcoPlanner has handbooks for every season that give general ideas of things to do!
+                    Winter:Skiing,Tubing.
+                    Summer:Biking, Hiking.
+                    Fall: Football Games, Pumpkin Carving.
+                    Spring: Flower Picking, Day at the Park.
+                    Check out our handbooks for more details!
+                </p>
+
+
+            </details>
+        </section>
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+<div class="text-center">
+    
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>

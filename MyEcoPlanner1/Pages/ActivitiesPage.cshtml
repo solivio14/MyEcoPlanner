@@ -1,0 +1,62 @@
+﻿@page
+@model MyEcoPlanner1.Pages.ActivitiesPageModel
+@{
+    <head>
+   
+    <title> Activities Page</title>
+    <h1 style="color:blue; text-align:center;"> Activites for you!</h1>
+    <em> <h2 style="text-align:center; font-size: 14px;"> This is where you can find personalized activities to do near you, based on the weather.</h2></em>
+    <a href="/">Go back to home.</a>
+
+        <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/site.css" asp-append-version="true" />
+        <link rel="stylesheet" href="MyEcoPlanner1.styles.css" asp-append-version="true" />
+
+    </head>
+    <body>
+   
+   <table>
+   <thead> 
+   <td> Activity</td>
+   <td>Weather</td>
+   </thead>
+  <tbody>
+  <tr>
+  <td> Hike at Coopers Rock</td>
+  <td> Sunny and Hot</td>
+
+  </tr>
+  <tr> 
+  <td> 
+  Dinosaur Museum
+  </td>
+  <td> Rainy and Cold</td>
+  </tr>
+  <tr>
+  <td> Snow Tubing</td>
+  <td> Snowy and Sunny</td>
+  
+  
+  
+  </tr>
+  </tbody>
+   
+   
+   </table>
+
+
+        <div class="alert alert-dismissible alert-warning">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <h4 class="alert-heading">Warning!</h4>
+            <p class="mb-0"> Thunderstorm starting in 10 minutes,get inside!</p>
+        </div>
+        <button onclick="addEcoActivity()">Add Eco-Friendly Activity</button>
+        <p id="message"></p>
+        <script src="script.js"></script>
+
+
+  
+        <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+
+}
